@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2009-05-13T08:49:53.437+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Background\Circle.png</Source>
+      <Name>Background\Circle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Background\Circle.xnb</Output>
+      <Time>2009-05-13T08:49:49.636+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Background\CircleF.png</Source>
+      <Name>Background\CircleF</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Background\CircleF.xnb</Output>
+      <Time>2009-05-13T08:49:49.641+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Background\Hex.png</Source>
+      <Name>Background\Hex</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Background\Hex.xnb</Output>
+      <Time>2009-05-13T08:49:49.639+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\HardStar3.png</Source>
+      <Name>Enemy\HardStar3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\HardStar3.xnb</Output>
+      <Time>2009-06-25T16:22:56.252+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\Solid6.png</Source>
+      <Name>Enemy\Solid6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\Solid6.xnb</Output>
+      <Time>2009-06-25T16:22:56.255+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\HardStar4.png</Source>
+      <Name>Enemy\HardStar4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\HardStar4.xnb</Output>
+      <Time>2009-06-25T16:22:56.257+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\HardStar5.png</Source>
+      <Name>Enemy\HardStar5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\HardStar5.xnb</Output>
+      <Time>2009-06-25T16:22:56.259+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\HardStar6.png</Source>
+      <Name>Enemy\HardStar6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\HardStar6.xnb</Output>
+      <Time>2009-06-25T16:22:56.262+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\SoftStar3.png</Source>
+      <Name>Enemy\SoftStar3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\SoftStar3.xnb</Output>
+      <Time>2009-06-25T16:22:56.264+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\SoftStar4.png</Source>
+      <Name>Enemy\SoftStar4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\SoftStar4.xnb</Output>
+      <Time>2009-06-25T16:22:56.267+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\SoftStar5.png</Source>
+      <Name>Enemy\SoftStar5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\SoftStar5.xnb</Output>
+      <Time>2009-06-25T16:22:56.269+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\SoftStar6.png</Source>
+      <Name>Enemy\SoftStar6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\SoftStar6.xnb</Output>
+      <Time>2009-06-25T16:22:56.272+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\Solid3.png</Source>
+      <Name>Enemy\Solid3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\Solid3.xnb</Output>
+      <Time>2009-06-25T16:22:56.274+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\Solid4.png</Source>
+      <Name>Enemy\Solid4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\Solid4.xnb</Output>
+      <Time>2009-06-25T16:22:56.276+10:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy\Solid5.png</Source>
+      <Name>Enemy\Solid5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\Enemy\Solid5.xnb</Output>
+      <Time>2009-06-25T16:22:56.278+10:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2009-05-27T23:16:14+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2009-05-27T23:16:06+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2009-05-27T23:16:16+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2009-05-27T23:16:26+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2009-05-27T23:16:12+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v3.1\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2009-05-27T23:16:06+10:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.1.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-10-29T01:37:57.9791669+11:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

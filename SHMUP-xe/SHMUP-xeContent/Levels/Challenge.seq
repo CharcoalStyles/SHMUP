@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"?>
+<LevelList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <levels>
+    <string>hcMadness</string>
+    <string>hcMissileMadness</string>
+    <string>Onslaught</string>
+    <string>Marathon</string>
+  </levels>
+</LevelList>

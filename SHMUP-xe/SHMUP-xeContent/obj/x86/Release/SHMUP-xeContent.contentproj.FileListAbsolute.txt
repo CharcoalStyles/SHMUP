@@ -1,0 +1,2 @@
+e:\UserFiles\New folder\Visual Studio 2010\Projects\SHMUP-xe\SHMUP-xe\SHMUP-xeContent\obj\x86\Release\ResolveAssemblyReference.cache
+E:\git\SHMUP\SHMUP-xe\SHMUP-xeContent\obj\x86\Release\ResolveAssemblyReference.cache

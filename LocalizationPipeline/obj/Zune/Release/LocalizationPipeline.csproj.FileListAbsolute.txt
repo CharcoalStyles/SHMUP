@@ -1,0 +1,5 @@
+E:\git\SHMUP\LocalizationPipeline\bin\Zune\Release\LocalizationPipeline.dll
+E:\git\SHMUP\LocalizationPipeline\bin\Zune\Release\LocalizationPipeline.pdb
+E:\git\SHMUP\LocalizationPipeline\obj\Zune\Release\ResolveAssemblyReference.cache
+E:\git\SHMUP\LocalizationPipeline\obj\Zune\Release\LocalizationPipeline.dll
+E:\git\SHMUP\LocalizationPipeline\obj\Zune\Release\LocalizationPipeline.pdb

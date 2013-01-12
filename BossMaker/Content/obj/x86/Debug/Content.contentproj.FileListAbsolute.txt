@@ -1,0 +1,2 @@
+C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHUMP\BossMaker\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Charcoal\Documents\Visual Studio 2008\Projects\SHMUP\BossMaker\Content\obj\x86\Debug\ResolveAssemblyReference.cache

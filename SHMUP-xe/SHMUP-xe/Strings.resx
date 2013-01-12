@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activate" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="Awards" xml:space="preserve">
+    <value>Awards</value>
+  </data>
+  <data name="AwardUnlocked" xml:space="preserve">
+    <value>Award Unlocked</value>
+  </data>
+  <data name="AwdDefender" xml:space="preserve">
+    <value>Defender</value>
+  </data>
+  <data name="AwdDefenderDescription" xml:space="preserve">
+    <value>Gained 10x Multiplier.</value>
+  </data>
+  <data name="AwdMaxEverything" xml:space="preserve">
+    <value>Big Spender</value>
+  </data>
+  <data name="AwdMaxEverythingDesc" xml:space="preserve">
+    <value>Bought everything at the shop.</value>
+  </data>
+  <data name="AwdMaxWeapons" xml:space="preserve">
+    <value>Fully Loaded</value>
+  </data>
+  <data name="AwdMaxWeaponsDesc" xml:space="preserve">
+    <value>Bought all the weapons upgrades.</value>
+  </data>
+  <data name="AwdNoMiss" xml:space="preserve">
+    <value>Ballistophobic</value>
+  </data>
+  <data name="AwdNoMissDisc" xml:space="preserve">
+    <value>Finished a level without using missiles.</value>
+  </data>
+  <data name="AwdOneShip" xml:space="preserve">
+    <value>Snowball In Hell</value>
+  </data>
+  <data name="AwdOneShipDesc" xml:space="preserve">
+    <value>Finished a level with one ship left.</value>
+  </data>
+  <data name="AwdShipNotDied" xml:space="preserve">
+    <value>Ninja</value>
+  </data>
+  <data name="AwdShipNotDiedDesc" xml:space="preserve">
+    <value>Finished a level without enemies destroying any of your ships.</value>
+  </data>
+  <data name="AwdShipNotHit" xml:space="preserve">
+    <value>Super Ninja</value>
+  </data>
+  <data name="AwdShipNotHitDesc" xml:space="preserve">
+    <value>Finished a level without an enemy hitting any of your ships.</value>
+  </data>
+  <data name="AwdWallNotHIt" xml:space="preserve">
+    <value>Vigilant Defender</value>
+  </data>
+  <data name="AwdWallNotHItDesc" xml:space="preserve">
+    <value>Finished a level without an enemy hitting the wall.</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="BuffHealth" xml:space="preserve">
+    <value>Ship Health</value>
+  </data>
+  <data name="BuffSpeed" xml:space="preserve">
+    <value>Ship Speed</value>
+  </data>
+  <data name="BulletMenu" xml:space="preserve">
+    <value>Bullet Upgrades</value>
+  </data>
+  <data name="ButtonToContinue" xml:space="preserve">
+    <value>Press a button to continue!</value>
+  </data>
+  <data name="CannotConnet" xml:space="preserve">
+    <value>Can't Connect to</value>
+  </data>
+  <data name="ChangePlayer" xml:space="preserve">
+    <value>Change Player</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="CursorSpeed" xml:space="preserve">
+    <value>Cursor Speed</value>
+  </data>
+  <data name="DemoFinished" xml:space="preserve">
+    <value>Demo Finished</value>
+  </data>
+  <data name="DemoOut1" xml:space="preserve">
+    <value>Hey there! I hope you enjoyed the S.H.M.U.P demo!</value>
+  </data>
+  <data name="DemoOut2" xml:space="preserve">
+    <value>If you've enjoyed these 4 levels, the full version has 19</value>
+  </data>
+  <data name="DemoOut3" xml:space="preserve">
+    <value>Click here to go to the store!</value>
+  </data>
+  <data name="DemoOut4" xml:space="preserve">
+    <value>and increased limits on the upgrades!</value>
+  </data>
+  <data name="DiffRate" xml:space="preserve">
+    <value>Difficulty Rating</value>
+  </data>
+  <data name="EffectsVolume" xml:space="preserve">
+    <value>Effects Volume</value>
+  </data>
+  <data name="ExitGame" xml:space="preserve">
+    <value>Exit Game</value>
+  </data>
+  <data name="FiftyPercent" xml:space="preserve">
+    <value>Award 50% complete</value>
+  </data>
+  <data name="FinTutorial" xml:space="preserve">
+    <value>Make sure to buy upgrades between levels or you will be unable to finish the first level!</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Full Screen</value>
+  </data>
+  <data name="GameOver" xml:space="preserve">
+    <value>Game Over</value>
+  </data>
+  <data name="globalHighScores" xml:space="preserve">
+    <value>Global High Scores</value>
+  </data>
+  <data name="Got100Pickups" xml:space="preserve">
+    <value>100Pickups</value>
+  </data>
+  <data name="Got100PickupsDesc" xml:space="preserve">
+    <value>Collected 100 Pickups.</value>
+  </data>
+  <data name="Got10kPickups" xml:space="preserve">
+    <value>10kPickups</value>
+  </data>
+  <data name="Got10kPickupsDesc" xml:space="preserve">
+    <value>Collected 10,000 Pickups</value>
+  </data>
+  <data name="Got1kPickups" xml:space="preserve">
+    <value>1kPickups</value>
+  </data>
+  <data name="Got1kPickupsDesc" xml:space="preserve">
+    <value>Collected 1,000 Pickps</value>
+  </data>
+  <data name="HashTag" xml:space="preserve">
+    <value>#SHMUP</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="HighScores" xml:space="preserve">
+    <value>High Scores</value>
+  </data>
+  <data name="InvalidAwards" xml:space="preserve">
+    <value>Invalid awards file, rebuilding.</value>
+  </data>
+  <data name="InvalidHighScore" xml:space="preserve">
+    <value>Invaild high score file, rebuilding.</value>
+  </data>
+  <data name="InvalidSaveGame" xml:space="preserve">
+    <value>Invalid save file, rebuilding.</value>
+  </data>
+  <data name="Killed100k" xml:space="preserve">
+    <value>S.H.M.U.P Commodore</value>
+  </data>
+  <data name="Killed100kDescription" xml:space="preserve">
+    <value>Killed 100,00 enemies.</value>
+  </data>
+  <data name="Killed10k" xml:space="preserve">
+    <value>S.H.M.U.P Captain</value>
+  </data>
+  <data name="Killed10kDescription" xml:space="preserve">
+    <value>Killed 10,000 enemies.</value>
+  </data>
+  <data name="Killed1k" xml:space="preserve">
+    <value>S.H.M.U.P Lieutenant</value>
+  </data>
+  <data name="Killed1kDescription" xml:space="preserve">
+    <value>Killed 1,000 enemies.</value>
+  </data>
+  <data name="Killed500k" xml:space="preserve">
+    <value>S.H.M.U.P Admiral</value>
+  </data>
+  <data name="Killed500kDescription" xml:space="preserve">
+    <value>Killed 500,000 enemies.</value>
+  </data>
+  <data name="Killed5k" xml:space="preserve">
+    <value>S.H.M.U.P Commander</value>
+  </data>
+  <data name="Killed5kDescription" xml:space="preserve">
+    <value>Killed 5,000 enemies.</value>
+  </data>
+  <data name="L1Finished" xml:space="preserve">
+    <value>Level 2 Finished!</value>
+    <comment>Temp</comment>
+  </data>
+  <data name="Levels" xml:space="preserve">
+    <value>levels</value>
+  </data>
+  <data name="LevelSequence" xml:space="preserve">
+    <value>Level Sequence</value>
+  </data>
+  <data name="LevelsNoExist" xml:space="preserve">
+    <value>Levels not loaded.</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+  <data name="localHighScores" xml:space="preserve">
+    <value>High Scores</value>
+  </data>
+  <data name="LoggedInAs" xml:space="preserve">
+    <value>Current Player</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LoginEmpty" xml:space="preserve">
+    <value>Login cannot be empty.</value>
+  </data>
+  <data name="LogingInTwitter" xml:space="preserve">
+    <value>Logging into Twitter</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="LVL1_1" xml:space="preserve">
+    <value>Level 1</value>
+  </data>
+  <data name="LVL1_2" xml:space="preserve">
+    <value>Blue Zone</value>
+  </data>
+  <data name="LVL2_1" xml:space="preserve">
+    <value>Level 2</value>
+  </data>
+  <data name="LVL2_2" xml:space="preserve">
+    <value>iSector</value>
+  </data>
+  <data name="MainMenu" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="Mid" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="MissileBank" xml:space="preserve">
+    <value>Missile Bank</value>
+  </data>
+  <data name="MissileStrength" xml:space="preserve">
+    <value>Missile Strength</value>
+  </data>
+  <data name="MoreAwards" xml:space="preserve">
+    <value>More Awards</value>
+  </data>
+  <data name="MusicVolume" xml:space="preserve">
+    <value>Music Volume</value>
+  </data>
+  <data name="NewAwards" xml:space="preserve">
+    <value>Created new awards file.</value>
+  </data>
+  <data name="NewHighScore" xml:space="preserve">
+    <value>New High Score!</value>
+  </data>
+  <data name="NewSave" xml:space="preserve">
+    <value>Created new save file.</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="NoHighScore" xml:space="preserve">
+    <value>Created new high score file.</value>
+  </data>
+  <data name="Notindemo" xml:space="preserve">
+    <value>Not In Demo</value>
+  </data>
+  <data name="NotLoggedIn" xml:space="preserve">
+    <value>Not signed in.</value>
+  </data>
+  <data name="NotLoggedInSaveFail" xml:space="preserve">
+    <value>Not logged in, cannot save.</value>
+  </data>
+  <data name="NumberBuffs" xml:space="preserve">
+    <value>Number of Ships</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="orgFin" xml:space="preserve">
+    <value>Original Game Finished</value>
+  </data>
+  <data name="OriginalGame" xml:space="preserve">
+    <value>Original Game</value>
+  </data>
+  <data name="OtherMenu" xml:space="preserve">
+    <value>Other Upgrades</value>
+  </data>
+  <data name="ParticleMod" xml:space="preserve">
+    <value>Particle Modifier</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PasswordEmpty" xml:space="preserve">
+    <value>Password cannot be empty.</value>
+  </data>
+  <data name="personHigh" xml:space="preserve">
+    <value>Highest Score</value>
+  </data>
+  <data name="PickUpRate" xml:space="preserve">
+    <value>Pick Ups</value>
+  </data>
+  <data name="PlayerName" xml:space="preserve">
+    <value>Player Name: </value>
+  </data>
+  <data name="PointsToSpend" xml:space="preserve">
+    <value>Points To Spend</value>
+  </data>
+  <data name="PostProcess" xml:space="preserve">
+    <value>Post Pocess Quality</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>Quit</value>
+  </data>
+  <data name="RandomGame" xml:space="preserve">
+    <value>Random Levels</value>
+  </data>
+  <data name="Resume" xml:space="preserve">
+    <value>Resume</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SeqFin" xml:space="preserve">
+    <value>Sequence Finished</value>
+  </data>
+  <data name="SeventyFivePercent" xml:space="preserve">
+    <value>Award 75% complete</value>
+  </data>
+  <data name="ShieldStrength" xml:space="preserve">
+    <value>Wall Strength</value>
+  </data>
+  <data name="ShipMenu" xml:space="preserve">
+    <value>Ship Upgrades</value>
+  </data>
+  <data name="SHMUP" xml:space="preserve">
+    <value>S.H.M.U.P</value>
+  </data>
+  <data name="ShootSpeed" xml:space="preserve">
+    <value>Shooting Speed</value>
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Shop</value>
+  </data>
+  <data name="ShopBulletMisNum" xml:space="preserve">
+    <value>Gives your ships more missiles to fire.</value>
+  </data>
+  <data name="ShopBulletMisStr" xml:space="preserve">
+    <value>Makes your ships' missiles deal more damage to the enemy.</value>
+  </data>
+  <data name="ShopBulletSpeed" xml:space="preserve">
+    <value>Allows your ships to fire their main gun faster.</value>
+  </data>
+  <data name="ShopOtherPickups" xml:space="preserve">
+    <value>Increases the chance of enemies dropping pickups.</value>
+  </data>
+  <data name="ShopOtherWall" xml:space="preserve">
+    <value>Makes your wall stronger, by giving more shields and adding another section.</value>
+  </data>
+  <data name="ShopShipHealth" xml:space="preserve">
+    <value>Allows your ships to take more damage before exploding.</value>
+  </data>
+  <data name="ShopShipNumber" xml:space="preserve">
+    <value>Adds another ship to your fleet.</value>
+  </data>
+  <data name="ShopShipSpeed" xml:space="preserve">
+    <value>Makes your ships move towards your cursor faster.</value>
+  </data>
+  <data name="Shot100kMissiles" xml:space="preserve">
+    <value>Missile Master</value>
+  </data>
+  <data name="Shot100kMissilesDesc" xml:space="preserve">
+    <value>Shot 100,000 missiles.</value>
+  </data>
+  <data name="Shot10kMissiles" xml:space="preserve">
+    <value>BOOM!</value>
+  </data>
+  <data name="Shot10kMissilesDesc" xml:space="preserve">
+    <value>Shot 10,000 missiles.</value>
+  </data>
+  <data name="Shot1kMissiles" xml:space="preserve">
+    <value>Boom!</value>
+  </data>
+  <data name="Shot1kMissilesDesc" xml:space="preserve">
+    <value>Shot 1,000 missiles.</value>
+  </data>
+  <data name="Shot50kMissiles" xml:space="preserve">
+    <value>KaBOOM!</value>
+  </data>
+  <data name="Shot50kMissilesDesc" xml:space="preserve">
+    <value>Shot 50,000 missiles.</value>
+  </data>
+  <data name="SingleLevel" xml:space="preserve">
+    <value>Single Level: </value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Skip</value>
+  </data>
+  <data name="SpawnSpeed" xml:space="preserve">
+    <value>Spawn Speed Multiplier</value>
+  </data>
+  <data name="StartGame" xml:space="preserve">
+    <value>Start Game</value>
+  </data>
+  <data name="StartLevel" xml:space="preserve">
+    <value>Start Level</value>
+  </data>
+  <data name="TenPercent" xml:space="preserve">
+    <value>Award 10% complete</value>
+  </data>
+  <data name="Tip1" xml:space="preserve">
+    <value>At the start of a new level, you get a new supply of missiles.</value>
+  </data>
+  <data name="Tip10" xml:space="preserve">
+    <value>The more points an enemy has, the harder it is and the more points you earn for killing it!</value>
+  </data>
+  <data name="Tip11" xml:space="preserve">
+    <value>Your ships' shields will recharge if they aren't hit for a short time.</value>
+  </data>
+  <data name="Tip2" xml:space="preserve">
+    <value>Your ships have shields that can destroy multiple enemies before destroying your ship.</value>
+  </data>
+  <data name="Tip3" xml:space="preserve">
+    <value>If you have the points, buying a new ship is always the best option.</value>
+  </data>
+  <data name="Tip4" xml:space="preserve">
+    <value>Make sure to check out the modding tools at charcoalstyles.com/SHMUP</value>
+  </data>
+  <data name="Tip5" xml:space="preserve">
+    <value>Changing the spawn rate at the start of a level not only makes the level harder, but gives you more points.</value>
+  </data>
+  <data name="Tip6" xml:space="preserve">
+    <value>As you damage bosses, they start to move faster.</value>
+  </data>
+  <data name="Tip7" xml:space="preserve">
+    <value>Remeber to upgrade your wall. It's your last, best defence!</value>
+  </data>
+  <data name="Tip8" xml:space="preserve">
+    <value>Tell me what you think of the game: aaron@charcoalstyles.com</value>
+  </data>
+  <data name="Tip9" xml:space="preserve">
+    <value>If you're having trouble with a level, play some other levels to earn more points and buy more upgrades!</value>
+  </data>
+  <data name="Total100mPoints" xml:space="preserve">
+    <value>Pointacular!</value>
+  </data>
+  <data name="Total100mPointsDescription" xml:space="preserve">
+    <value>Gained over 100,000,000 Points.</value>
+  </data>
+  <data name="Total10mPoints" xml:space="preserve">
+    <value>Pointastic!</value>
+  </data>
+  <data name="Total10mPointsDescription" xml:space="preserve">
+    <value>Gained over 10,000,000 Points.</value>
+  </data>
+  <data name="Total50mPoints" xml:space="preserve">
+    <value>Pointriffic!</value>
+  </data>
+  <data name="Total50mPointsDescription" xml:space="preserve">
+    <value>Gained over 50,000,000 Points.</value>
+  </data>
+  <data name="TotalKills" xml:space="preserve">
+    <value>Total Enemies Destroyed</value>
+  </data>
+  <data name="TotalLevelsCompletes" xml:space="preserve">
+    <value>Total Levels Completed</value>
+  </data>
+  <data name="TotalMissiles" xml:space="preserve">
+    <value>Total Missiles Fired</value>
+  </data>
+  <data name="TotalPickups" xml:space="preserve">
+    <value>Total Pickups Collected</value>
+  </data>
+  <data name="TotalScore" xml:space="preserve">
+    <value>Total Points Scored</value>
+  </data>
+  <data name="TUT_0k" xml:space="preserve">
+    <value>Use the Mouse to move the cursor.</value>
+  </data>
+  <data name="TUT_0p" xml:space="preserve">
+    <value>Use the Left Stick to move the cursor.</value>
+  </data>
+  <data name="TUT_1" xml:space="preserve">
+    <value>Your ships will move to the cursor.</value>
+  </data>
+  <data name="TUT_10" xml:space="preserve">
+    <value>The Red Pickup slows down your enemies.</value>
+  </data>
+  <data name="TUT_11" xml:space="preserve">
+    <value>After each level, you can spend points on upgrades.</value>
+  </data>
+  <data name="TUT_2k" xml:space="preserve">
+    <value>Your ships will shoot automatically.</value>
+  </data>
+  <data name="TUT_2p" xml:space="preserve">
+    <value>Your ships will shoot automatically.</value>
+  </data>
+  <data name="TUT_3k" xml:space="preserve">
+    <value>Use either Mouse Button to fire missiles.</value>
+  </data>
+  <data name="TUT_3p" xml:space="preserve">
+    <value>Use any Button to fire missiles.</value>
+  </data>
+  <data name="TUT_4" xml:space="preserve">
+    <value>You have a limited amount of missiles per level.</value>
+  </data>
+  <data name="TUT_5" xml:space="preserve">
+    <value>Enemies that damage the wall are teleported back.</value>
+  </data>
+  <data name="TUT_6" xml:space="preserve">
+    <value>If the wall is damaged enough, it will break.</value>
+  </data>
+  <data name="TUT_7" xml:space="preserve">
+    <value>If an enemy makes it through the wall, your game ends.</value>
+  </data>
+  <data name="TUT_8" xml:space="preserve">
+    <value>The Green Pickup gives you more missiles.</value>
+  </data>
+  <data name="TUT_9" xml:space="preserve">
+    <value>The Blue Pickup repairs your wall.</value>
+  </data>
+  <data name="TwentyFivePercent" xml:space="preserve">
+    <value>Award 25% complete</value>
+  </data>
+  <data name="TwitterLoginFail" xml:space="preserve">
+    <value>Twitter Login Failed</value>
+  </data>
+  <data name="TwitterLoginSuccess" xml:space="preserve">
+    <value>Twitter Login Successful</value>
+  </data>
+  <data name="TwitterMultipleAwards" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TwitterNewAward" xml:space="preserve">
+    <value>New Award: </value>
+  </data>
+  <data name="TwitterNewAwards" xml:space="preserve">
+    <value> New Awards.</value>
+  </data>
+  <data name="TwitterNewHighScore" xml:space="preserve">
+    <value>New Highscore:</value>
+  </data>
+  <data name="TwitterTip1" xml:space="preserve">
+    <value>S.H.M.U.P will post about awards you unlock and your high scores.</value>
+  </data>
+  <data name="TwitterTip2" xml:space="preserve">
+    <value>Generally, posts will only go out once every five munites.</value>
+  </data>
+  <data name="TwitterTip3" xml:space="preserve">
+    <value>If you don't want to participate with Twitter, please click on skip.</value>
+  </data>
+  <data name="Ultra" xml:space="preserve">
+    <value>Ultra</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="WantToExit" xml:space="preserve">
+    <value>Are You Sure You Want To Exit?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="YourScore" xml:space="preserve">
+    <value>Your Score</value>
+  </data>
+  <data name="ICconnect" xml:space="preserve">
+    <value>Connecting to IndieCity</value>
+  </data>
+</root>
